@@ -14,7 +14,7 @@
 		<div id="headerlinks">
 						<div id="links">	
 								<a href="index.html" style="text-decoration: none;"><font color=#777777>About</a> |
-								<a href="portfolio.html" style="text-decoration: none;"><font color=#777777>Porfolio</a> |
+								<a href="portfolio.html" style="text-decoration: none;"><font color=#777777>Portfolio</a> |
 								<a href="contact.html" style="text-decoration: none;"><font color=#777777>Contact</a> 
 						</div>
 					
@@ -44,19 +44,26 @@
 
 			</div>
 			<div id="contact">
+					
+
+					<!-- PSEUDOCODE: Still need to figure out how to make the text area longer for: "Name" and "Email" without including the little symbol so it can be stretched.-->
+
 					<form>
 						<form action="mailto:someone@example.com" method="post" enctype="text/plain">
 						Name<br>
-						<input type="text" name="name" placeholder="John Smith"><br>
+						<input type="text" name="name" placeholder="John Smith"></textarea><br>
+						
 						Email<br>
-						<input type="text" name="mail" placeholder="example@gmail.com"><br>
+						<input type="text" name="mail" rows= "1" cols="55" placeholder="example@gmail.com"><br>
+					
+						
 						Message<br>
 						<span class="wpcf7-form-control-wrap your-message"><br>
-						<textarea rows="10" cols="40" name="your-message"></textarea>
+						<textarea rows="10" cols="55" name="your-message"></textarea>
 						</span><br>
 
-						<!-- 1) need to work on the button -->
-						<input type="Submit" value="Submit">
+						
+						<input type="Submit" value="Submit" id="button"><br>
 						
 						</form>
 					</form>
@@ -81,7 +88,7 @@
 				<br>	
 
 				<div id="logos">
-		<!-- find a way to get rid of the black underline -->
+		
 					<div class="imagecontainer"><a href="https://github.com/Ambiguous26">
 					<img src="assets/images/github.png" class="social-icon" height="50"></a></div>
 
@@ -101,7 +108,7 @@
 		
 					
 
-				<!-- How do i get the format for h4 to show on my page without text? -->
+		
 				
 					<footer>	 
 					<!-- code below is for the copyright symbol -->
